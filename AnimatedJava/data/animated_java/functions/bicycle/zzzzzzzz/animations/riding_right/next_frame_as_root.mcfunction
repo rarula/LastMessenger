@@ -1,0 +1,1 @@
+function animated_java:bicycle/zzzzzzzz/animations/riding_right/tick_animation

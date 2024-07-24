@@ -1,0 +1,3 @@
+execute if score @s aj.bicycle.animation.riding.loop_mode = $aj.loop_mode.loop aj.i run function animated_java:bicycle/zzzzzzzz/animations/riding/end_loop
+execute if score @s aj.bicycle.animation.riding.loop_mode = $aj.loop_mode.once aj.i run function animated_java:bicycle/animations/riding/stop
+execute if score @s aj.bicycle.animation.riding.loop_mode = $aj.loop_mode.hold aj.i run function animated_java:bicycle/animations/riding/pause

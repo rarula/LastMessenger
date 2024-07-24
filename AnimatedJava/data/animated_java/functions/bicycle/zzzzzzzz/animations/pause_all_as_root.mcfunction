@@ -1,0 +1,4 @@
+function animated_java:bicycle/zzzzzzzz/animations/idle/pause_as_root
+function animated_java:bicycle/zzzzzzzz/animations/riding/pause_as_root
+function animated_java:bicycle/zzzzzzzz/animations/riding_left/pause_as_root
+function animated_java:bicycle/zzzzzzzz/animations/riding_right/pause_as_root

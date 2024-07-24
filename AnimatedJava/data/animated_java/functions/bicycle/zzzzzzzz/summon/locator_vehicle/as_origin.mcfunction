@@ -1,0 +1,4 @@
+summon minecraft:item_display ~ ~ ~ {Tags:["aj.bicycle.locator","aj.bicycle.locator.vehicle","aj.new"],CustomName:"[{\"text\":\"[\",\"color\":\"gray\"},{\"text\":\"AJ\",\"color\":\"aqua\"},\"] \",[\"\",{\"text\":\"bicycle\",\"color\":\"light_purple\"},\".\",{\"text\":\"locatorEntity\",\"color\":\"white\"},\"[\",{\"text\":\"vehicle\",\"color\":\"yellow\"},\"]\"]]"}
+execute as @e[type=minecraft:item_display,tag=aj.bicycle.locator.vehicle,tag=aj.new,limit=1,distance=..1] run function animated_java:bicycle/zzzzzzzz/summon/locator_vehicle/as_entity
+data modify entity @s Owner set from storage animated_java Owner
+data remove storage animated_java Owner
