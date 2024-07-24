@@ -1,0 +1,220 @@
+{
+    "datapack.env.cmdVersion": "1.20.3",
+    "datapack.env.dataVersion": "1.20.4",
+    "datapack.env.permissionLevel": 2,
+    "datapack.env.dependsOnVanilla": true,
+    "datapack.env.defaultVisibility": "private",
+    "datapack.env.detectionDepth": 1,
+    "datapack.env.exclude": [],
+    "datapack.env.include": [],
+    "datapack.env.language": "Default",
+    "datapack.features.formatting": true,
+    "datapack.lint.blockStateBracketSpacing": {
+        "inside": 0
+    },
+    "datapack.lint.blockStateCommaSpacing": {
+        "before": 0,
+        "after": 1
+    },
+    "datapack.lint.blockStateEqualSpacing": {
+        "before": 0,
+        "after": 0
+    },
+    "datapack.lint.blockStateTrailingComma": false,
+    "datapack.lint.nbtArrayBracketSpacing": {
+        "inside": 0
+    },
+    "datapack.lint.nbtArrayCommaSpacing": {
+        "before": 0,
+        "after": 1
+    },
+    "datapack.lint.nbtArraySemicolonSpacing": {
+        "after": 1
+    },
+    "datapack.lint.nbtArrayTrailingComma": false,
+    "datapack.lint.nbtCompoundBracketSpacing": {
+        "inside": 0
+    },
+    "datapack.lint.nbtCompoundColonSpacing": {
+        "before": 0,
+        "after": 0
+    },
+    "datapack.lint.nbtCompoundCommaSpacing": {
+        "before": 0,
+        "after": 1
+    },
+    "datapack.lint.nbtCompoundTrailingComma": false,
+    "datapack.lint.nbtListBracketSpacing": {
+        "inside": 0
+    },
+    "datapack.lint.nbtListCommaSpacing": {
+        "before": 0,
+        "after": 1
+    },
+    "datapack.lint.nbtListTrailingComma": false,
+    "datapack.lint.selectorBracketSpacing": {
+        "inside": 0
+    },
+    "datapack.lint.selectorCommaSpacing": {
+        "before": 0,
+        "after": 1
+    },
+    "datapack.lint.selectorEqualSpacing": {
+        "before": 0,
+        "after": 0
+    },
+    "datapack.lint.selectorTrailingComma": false,
+    "datapack.lint.nbtByteSuffix": "b",
+    "datapack.lint.nbtLongSuffix": "L",
+    "datapack.lint.nbtShortSuffix": "s",
+    "datapack.lint.nbtFloatSuffix": "f",
+    "datapack.lint.nbtDoubleSuffix": "d",
+    "datapack.lint.nbtDoubleOmitSuffix": false,
+    "datapack.lint.timeOmitTickUnit": false,
+    "datapack.lint.eol": "LF",
+    "datapack.lint.blockStateSortKeys": [
+        "warning",
+        "alphabetically"
+    ],
+    "datapack.lint.nbtCompoundSortKeys": null,
+    "datapack.lint.selectorSortKeys": [
+        "warning",
+        [
+            "type",
+            "gamemode",
+            "gamemodeNeg",
+            "level",
+            "team",
+            "teamNeg",
+            "typeNeg",
+            "tag",
+            "tagNeg",
+            "name",
+            "nameNeg",
+            "predicate",
+            "predicateNeg",
+            "scores",
+            "advancements",
+            "nbt",
+            "nbtNeg",
+            "x",
+            "y",
+            "z",
+            "dx",
+            "dy",
+            "dz",
+            "distance",
+            "x_rotation",
+            "y_rotation",
+            "sort",
+            "limit"
+        ]
+    ],
+    "datapack.lint.strictEntityTypeCheck": [
+        "error",
+        "only-default-namespace"
+    ],
+    "datapack.lint.strictTagCheck": [
+        "warning",
+        true
+    ],
+    "datapack.lint.strictScoreHolderCheck": [
+        "warning",
+        true
+    ],
+    "datapack.lint.strictObjectiveCheck": [
+        "warning",
+        true
+    ],
+    "datapack.lint.strictStorageCheck": [
+        "warning",
+        true
+    ],
+    "datapack.lint.strictFunctionCheck": [
+        "warning",
+        true
+    ],
+    "datapack.lint.strictFunctionTagCheck": [
+        "warning",
+        true
+    ],
+    "datapack.lint.idOmitDefaultNamespace": [
+        "warning",
+        false
+    ],
+    "datapack.lint.nameOfScoreHolders": [
+        "error",
+        [
+            {
+                "label": "DollerPrefix",
+                "prefix": "$"
+            },
+            {
+                "label": "HashPrefix",
+                "prefix": "#"
+            }
+        ]
+    ],
+    "mcdutil.createDatapackTemplate.defaultFolder": false,
+    "mcdutil.createDatapackTemplate.defaultLoadAndTick": false,
+    "mcdutil.createDatapackTemplate.defaultVanillaData": false,
+    "mcdutil.createFile.fileTemplate": {
+        "function": [
+            "#> %fileResourcePath%",
+            "#",
+            "# %cursor%",
+            "#",
+            "# @within %nowOpenFileType% %nowOpenFileResourcePath%"
+        ],
+        "advancement": [
+            "{",
+            "    \"criteria\": {",
+            "        \"trigger\": {",
+            "            \"trigger\": %cursor%",
+            "        }",
+            "    }",
+            "}"
+        ],
+        "predicate": [
+            "{",
+            "    \"condition\": %cursor%",
+            "}"
+        ],
+        "tag/block": [
+            "{",
+            "    \"values\": [",
+            "        %cursor%",
+            "    ]",
+            "}"
+        ],
+        "tag/entity_type": [
+            "{",
+            "    \"values\": [",
+            "        %cursor%",
+            "    ]",
+            "}"
+        ],
+        "tag/fluid": [
+            "{",
+            "    \"values\": [",
+            "        %cursor%",
+            "    ]",
+            "}"
+        ],
+        "tag/function": [
+            "{",
+            "    \"values\": [",
+            "        %cursor%",
+            "    ]",
+            "}"
+        ],
+        "tag/item": [
+            "{",
+            "    \"values\": [",
+            "        %cursor%",
+            "    ]",
+            "}"
+        ]
+    },
+    "githubIssues.issueCompletions.enabled": false
+}
