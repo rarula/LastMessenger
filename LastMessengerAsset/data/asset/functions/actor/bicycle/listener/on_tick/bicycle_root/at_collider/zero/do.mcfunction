@@ -10,7 +10,7 @@
     #declare score_holder #100
 
 
-# #Min = min(#Min, min(50, currentY - (floor(currentY) - 100 - #CollisionHeight1)))
+# #Min = min(#Min, currentY - (floor(currentY) - 100 - #CollisionHeight1))
 # floor(currentY)
     scoreboard players operation #FloorYFloat Temp = @s Asset.Actor.Bicycle.Y
     scoreboard players operation #FloorYFloat Temp %= #100 Const

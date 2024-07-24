@@ -26,7 +26,7 @@
 # 上にブロックがない -> 自転車のY座標 = max(#ToY, #CollisionHeight)
     execute positioned ^ ^ ^0.05 if function asset:actor/bicycle/listener/on_tick/player/riding/positioned_as_collider/can_teleport/_ if score #ToY Temp < #CollisionHeight Temp run scoreboard players operation #ToY Temp = #CollisionHeight Temp
 
-# 上にブロックがある -> 自転車のY座標 = max(#ToY, #CollisionHeight)
+# 上にブロックがある -> rayがヒットしたブロックの軸方向への移動ベクトルを打ち消す
     execute positioned ^ ^ ^0.05 unless function asset:actor/bicycle/listener/on_tick/player/riding/positioned_as_collider/can_teleport/_ run function asset:actor/bicycle/listener/on_tick/player/riding/positioned_as_collider/cutout/_
 
 
