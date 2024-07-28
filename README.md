@@ -24,6 +24,9 @@ Minecraft JE 1.20.4
 - [concat](https://github.com/crafter1415/concat) ([crafter1415](https://github.com/crafter1415) 様)  
 プレイヤーヘッドのBase64を解析した後の文字列の結合に使用させていただきました。
 
+- [animated-java](https://github.com/Animated-Java/animated-java) ([Animated-Java](https://github.com/Animated-Java) 様)  
+アクターのアニメーション作成に使用させていただきました。
+
 - [stable_player_display](https://github.com/bradleyq/stable_player_display) ([bradleyq](https://github.com/bradleyq) 様)  
 バニラシェーダーによるプレイヤーモデルの描画や、エクスポートされたAnimatedJavaプロジェクトの一部モデルの変換に使用させていただきました。
 
