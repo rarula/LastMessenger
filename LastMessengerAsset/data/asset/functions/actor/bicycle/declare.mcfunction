@@ -19,10 +19,12 @@
     #declare tag Asset.Actor.Bicycle.Entity.Collider.Front
     #declare tag Asset.Actor.Bicycle.Entity.Collider.Back
     #declare tag Asset.Actor.Bicycle.Entity.PlayerSkin
+    #declare tag Asset.Actor.Bicycle.Entity.Light
     #declare tag Asset.Actor.Bicycle.Flag.Initialized
     #declare tag Asset.Actor.Bicycle.Flag.Initialized2
     #declare tag Asset.Actor.Bicycle.Flag.Initialized3
     #declare tag Asset.Actor.Bicycle.Flag.Riding
+    #declare tag Asset.Actor.Bicycle.Flag.Lighting
     #declare tag Asset.Actor.Bicycle.Flag.OnGround
 
 #>

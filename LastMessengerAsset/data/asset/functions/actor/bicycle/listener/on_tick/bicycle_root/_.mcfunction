@@ -46,5 +46,9 @@
     execute store result score @s Asset.Actor.Bicycle.Y run data get entity @s Pos[1] 100.0
 
 
+# 照明を使用中の自転車に対する処理
+    execute if entity @s[tag=Asset.Actor.Bicycle.Flag.Lighting] run function asset:actor/bicycle/listener/on_tick/bicycle_root/lighting/_
+
+
 # リセット
     tag @e[tag=Asset.Actor.Bicycle.TargetBicycle] remove Asset.Actor.Bicycle.TargetBicycle

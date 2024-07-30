@@ -4,6 +4,9 @@
 #
 # @within tag/function asset:actor/on_tick
 
+# 自転車のLightに対する処理
+    execute as @e[type=minecraft:marker, tag=Asset.Actor.Bicycle.Entity.Light] at @s run function asset:actor/bicycle/listener/on_tick/bicycle_light/_
+
 # 自転車で走行中のプレイヤーに対する処理
     execute as @a if entity @s[tag=GlobalPlayerTag.isRiding] at @s run function asset:actor/bicycle/listener/on_tick/player/_
 
