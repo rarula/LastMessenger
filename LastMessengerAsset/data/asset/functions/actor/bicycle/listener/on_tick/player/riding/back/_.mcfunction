@@ -1,5 +1,5 @@
 #> asset:actor/bicycle/listener/on_tick/player/riding/back/_
-# @within function asset:actor/bicycle/listener/on_tick/player/riding/_
+# @within function asset:actor/bicycle/listener/on_tick/player/riding/3.move_bicycle
 
 #>
 # @within function asset:actor/bicycle/listener/on_tick/player/riding/back/*
