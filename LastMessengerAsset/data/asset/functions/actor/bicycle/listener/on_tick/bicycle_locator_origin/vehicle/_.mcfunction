@@ -1,4 +1,4 @@
-#> asset:actor/bicycle/listener/on_tick/bicycle_vehicle_origin/_
+#> asset:actor/bicycle/listener/on_tick/bicycle_locator_origin/vehicle/_
 #
 # 自転車のVehicleOriginに対する処理
 #

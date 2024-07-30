@@ -1,4 +1,4 @@
-#> asset:actor/bicycle/listener/on_tick/bicycle_bounding_box_origin/_
+#> asset:actor/bicycle/listener/on_tick/bicycle_locator_origin/bounding_box/_
 #
 # 自転車のBoundingBoxOriginに対する処理
 #
