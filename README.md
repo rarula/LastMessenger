@@ -1,7 +1,19 @@
 # LastMessenger
 
 ## 開発環境
+
+### バージョン
 Minecraft JE 1.20.4
+
+### データパックの読み込み順
+1. vanilla (Built-in)
+2. LastMessengerCore
+3. LastMessengerAsset
+4. AnimatedJava
+5. StablePlayerDisplay
+6. Concat
+7. SkinModelDetection
+8. WasdDetection
 
 ## ライセンスについて
 このリポジトリでは、以下のものを除いて [CC0-1.0 License](LICENSE) が適用されます。
