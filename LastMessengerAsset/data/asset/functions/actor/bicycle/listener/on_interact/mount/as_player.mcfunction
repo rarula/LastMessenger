@@ -4,6 +4,9 @@
 # 乗車中としてタグを設定
     tag @s add GlobalPlayerTag.isRiding
 
+# 乗車中としてチームに参加
+    team join Asset.Actor.Bicycle.Team @s
+
 # 乗車中として透明化
     effect give @s minecraft:invisibility infinite 1 true
 

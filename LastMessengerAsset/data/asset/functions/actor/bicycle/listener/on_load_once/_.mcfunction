@@ -38,3 +38,11 @@
 # @within * asset:actor/bicycle/**
     #scoreboard objectives remove Asset.Actor.Bicycle.PreviousColor
     #scoreboard objectives add Asset.Actor.Bicycle.PreviousColor dummy
+
+
+#> 自転車に乗車中のプレイヤーのチーム
+# @public
+    team remove Asset.Actor.Bicycle.Team
+    team add Asset.Actor.Bicycle.Team
+    team modify Asset.Actor.Bicycle.Team collisionRule never
+    team modify Asset.Actor.Bicycle.Team seeFriendlyInvisibles false

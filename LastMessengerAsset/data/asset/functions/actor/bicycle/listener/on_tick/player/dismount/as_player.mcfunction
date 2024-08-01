@@ -4,6 +4,9 @@
 # 自転車から下車したとしてタグを削除
     tag @s remove GlobalPlayerTag.isRiding
 
+# 自転車から下車したとしてチームから退出
+    team leave @s
+
 # 自転車から下車したとして透明化を解除
     effect clear @s minecraft:invisibility
 
