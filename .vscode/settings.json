@@ -130,6 +130,10 @@
         "warning",
         true
     ],
+    "datapack.lint.strictTeamCheck": [
+        "warning",
+        true
+    ],
     "datapack.lint.strictFunctionCheck": [
         "warning",
         true
