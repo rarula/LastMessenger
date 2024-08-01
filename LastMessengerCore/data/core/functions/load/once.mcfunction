@@ -67,7 +67,6 @@
 
 
 #region エンティティ処理用スコアボード
-
 #> エンティティのID
 # @public
     scoreboard objectives remove Entity.ID
