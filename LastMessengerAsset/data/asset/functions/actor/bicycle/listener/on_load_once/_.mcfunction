@@ -34,11 +34,6 @@
     scoreboard objectives remove Asset.Actor.Bicycle.Color
     scoreboard objectives add Asset.Actor.Bicycle.Color dummy
 
-#> 以前の自転車の色
-# @within * asset:actor/bicycle/**
-    #scoreboard objectives remove Asset.Actor.Bicycle.PreviousColor
-    #scoreboard objectives add Asset.Actor.Bicycle.PreviousColor dummy
-
 
 #> 自転車に乗車中のプレイヤーのチーム
 # @public
